@@ -1,6 +1,6 @@
 # Batch Photo EXIF / Watermark Processor
 
-A shell script that uses [ImageMagick](http://www.imagemagick.org/script/index.php) and [ExifTool](http://www.imagemagick.org/script/index.php) to quickly process photos for online hosting.
+A shell script that uses [GraphicsMagick](http://www.graphicsmagick.org) and [ExifTool](https://www.sno.phy.queensu.ca/~phil/exiftool/) to quickly process photos for online hosting.
 
 The script uses ExifTool to scan for and correct bad EXIF data while inserting authorship and copyright data. ImageMagick is used to generate multiple scaled versions of each image, with watermarks on any images larger than 256px in width, and a tiled watermark on any larger than 4096px.
 
